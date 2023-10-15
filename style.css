@@ -65,7 +65,7 @@
     height: 100%;
     background-repeat: no-repeat;
   background-position: right top;
-  background-size: 700px 800px;
+  background-size: 700px 750px;
 
 }
 
@@ -108,3 +108,42 @@ width: 600px;
         
       }
 
+
+
+      /* About section starts here */
+
+
+.About-section{
+    padding: 95px 12%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+    background-image: url("/css-project/Restaurant-app/assets/about-background.png");
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+  background-position: left;
+  background-size: 704px 771px;
+}
+
+.content-section{
+    justify-content: space-between;
+}
+
+.About-image{
+    height: 600px;
+width: 600px;
+}
+
+.About-text-area{
+
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+
+.About-heading{
+    color: var(--text-primary);
+    font-size: 2.5em;
+    font-weight: 700;
+}
